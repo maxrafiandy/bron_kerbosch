@@ -11,7 +11,8 @@
 
 Bron_kerbosch::Bron_kerbosch(std::vector<int> *graph)
 {
-	this->graph = graph;  
+	this->graph = graph;
+	this->print_screen = false;
 }
 
 Bron_kerbosch::Bron_kerbosch(std::vector<int> *graph, bool print_screen)

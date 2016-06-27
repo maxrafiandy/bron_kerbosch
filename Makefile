@@ -16,4 +16,4 @@ uninstall:
 	rm /usr/local/bin/bron_kerbosch.x
 
 clean:
-	rm bron_kerbosch.x
+	rm *.o *.x

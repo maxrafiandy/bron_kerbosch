@@ -10,10 +10,10 @@
 #include <string.h>
 #include "bron_kerbosch.h"
 
-#define DEFAULT_VERTEX 60
+#define DEFAULT_VERTEX 3
 
-static int NUM_VERTEX;
-static char FILE_NAME[256];
+int NUM_VERTEX;
+char FILE_NAME[256];
 
 std::ifstream in_file;
 
@@ -95,7 +95,7 @@ int main(int argc, char** argv)
      * a text file instead of to screen, pass
      * true as a second argument.
      */ 
-    Bron_kerbosch bk(g);
+    Bron_kerbosch bk(g,true);
     
     /* execute the bron_kerbosch and exit 
      * and close the program

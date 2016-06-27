@@ -23,7 +23,7 @@ private:
     void bron_kerbosch(std::vector<int> r, std::vector<int> p, std::vector<int> x);
     std::ofstream out_file;
     std::vector<int> *graph;
-    bool print_screen = false;
+    bool print_screen;
 };
 
 #endif // BRON_KERBOSCH_H
